@@ -1,0 +1,862 @@
+Message-ID: <102181109.67.1533794528763.JavaMail.confluence@NJ514>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_66_938851863.1533794528762"
+
+------=_Part_66_938851863.1533794528762
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>MTI Creation Plan</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>MTI Creation Plan</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"MTICreationPlan-=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=
+=B8=D0=B5=D0=BD=D0=BE=D0=B2=D0=BE=D0=B9=D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=
+=D1=8B">=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BD=D0=BE=D0=B2=
+=D0=BE=D0=B9 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B</h1>
+<p><a href=3D"#MTICreationPlan-start">=D0=A1 =D1=87=D0=B5=D0=B3=D0=BE =D0=
+=BD=D0=B0=D1=87=D0=B0=D1=82=D1=8C</a><br><a href=3D"#MTICreationPlan-make">=
+=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D1=85=D0=B5=D0=BC=
+=D1=8B</a><br><a href=3D"#MTICreationPlan-setup">=D0=A3=D1=81=D1=82=D0=B0=
+=D0=BD=D0=BE=D0=B2=D0=BA=D0=B0 =D0=B8 =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=
+=D0=B9=D0=BA=D0=B0 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82</=
+a><br><a href=3D"#MTICreationPlan-tune">=D0=9D=D0=B0=D0=BF=D0=BE=D0=BB=D0=
+=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B8 =D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=
+=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=BD=D0=B0=D1=81=D1=82=D1=
+=80=D0=BE=D0=B9=D0=BA=D0=B0</a><br><a href=3D"#MTICreationPlan-customizatio=
+n">=D0=9F=D0=B5=D1=80=D1=81=D0=BE=D0=BD=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=
+=D0=B8=D1=8F</a></p>
+<hr>
+<p><span class=3D"confluence-anchor-link" id=3D"MTICreationPlan-start"></sp=
+an></p>
+<h3 id=3D"MTICreationPlan-=D0=A1=D1=87=D0=B5=D0=B3=D0=BE=D0=BD=D0=B0=D1=87=
+=D0=B0=D1=82=D1=8C">=D0=A1 =D1=87=D0=B5=D0=B3=D0=BE =D0=BD=D0=B0=D1=87=D0=
+=B0=D1=82=D1=8C</h3>
+<p>=D0=94=D0=BB=D1=8F =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F =D0=
+=BD=D0=BE=D0=B2=D0=BE=D0=B9 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B =D0=
+=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D0=B7=D0=BD=D0=
+=B0=D1=82=D1=8C:</p>
+<ul class=3D"alternate">
+<li><p><strong>=D0=A2=D0=B8=D0=BF.</strong>&nbsp;=D0=94=D0=BE=D1=81=D1=82=
+=D1=83=D0=BF=D0=BD=D1=8B=D0=B9 =D0=BD=D0=B0 =D1=82=D0=B5=D0=BA=D1=83=D1=89=
+=D0=B8=D0=B9 =D0=BC=D0=BE=D0=BC=D0=B5=D0=BD=D1=82 =D1=82=D0=B8=D0=BF=D1=8B:=
+ [ Deal | Demo ]<br><br></p></li>
+<li><strong>=D0=9F=D0=B5=D1=80=D0=B2=D0=B8=D1=87=D0=BD=D0=B0=D1=8F =D0=BD=
+=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=B0.</strong>=D0=A1=D0=B2=D0=
+=B5=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=BE =D0=B6=D0=B5=D0=BB=D0=B0=D0=B5=D0=
+=BC=D1=8B=D1=85 =D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=
+=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=B0=D1=85 =D1=81=D0=B8=D1=
+=81=D1=82=D0=B5=D0=BC=D1=8B:
+<ul class=3D"alternate">
+<li>=D0=91=D0=B0=D0=B7=D0=BE=D0=B2=D0=B0=D1=8F =D0=B2=D0=B0=D0=BB=D1=8E=D1=
+=82=D0=B0 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B;</li>
+<li>=D0=A1=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D0=B8=D0=BD=D1=81=D1=82=D1=80=D1=
+=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2 =D0=B8 =D0=B8=D1=85 =D0=BF=D0=B0=D1=
+=80=D0=B0=D0=BC=D0=B5=D1=82=D1=80=D1=8B (Contract size, margin requirement,=
+ point size);</li>
+<li>=D0=A4=D0=B8=D0=B4-=D0=B8=D1=81=D1=82=D0=BE=D1=87=D0=BD=D0=B8=D0=BA=D0=
+=B8 (=D0=B8=D0=BC=D0=B5=D0=BD=D0=B0 =D0=B8 =D1=81=D1=81=D1=8B=D0=BB=D0=BA=
+=D0=B8);</li>
+<li>=D0=9A=D0=BB=D0=B8=D1=80=D0=B8=D0=BD=D0=B3=D0=BE=D0=B2=D1=8B=D0=B5 =D0=
+=BF=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D1=8F;</li>
+<li>=D0=9D=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE=D1=81=D1=
+=82=D1=8C =D0=BF=D0=BE=D0=B4=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=B8=D1=
+=8F =D0=BE=D0=BF=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=
+=85 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82 (=D0=BD=D0=BE=D0=
+=B2=D0=BE=D1=81=D1=82=D0=B8, =D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=
+=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=84=D0=B8=D0=B4=D1=8B, =D1=80=D0=
+=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=
+=D0=B5 =D1=84=D0=BE=D1=80=D0=BC=D1=8B, =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=D1=8C=
+=D0=BD=D0=B0=D1=8F =D1=82=D0=BE=D1=80=D0=B3=D0=BE=D0=B2=D0=BB=D1=8F =D0=B8 =
+=D1=82.=D0=B4.)</li>
+<li>=D0=A1=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=BE =D1=81=D0=B8=D1=
+=81=D1=82=D0=B5=D0=BC=D0=B0=D1=85-=D0=B8=D1=81=D1=82=D0=BE=D1=87=D0=BD=D0=
+=B8=D0=BA=D0=B0=D1=85, =D0=BF=D1=80=D0=B8 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=
+=BE=D0=B4=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=B2=D1=8B=D0=BF=D0=BE=D0=
+=BB=D0=BD=D1=8F=D1=82=D1=8C =D0=BF=D0=B5=D1=80=D0=B5=D0=BD=D0=BE=D1=81 =D0=
+=BE=D1=82=D1=82=D1=83=D0=B4=D0=B0 =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=
+=B5=D0=BA =D0=B8=D0=BB=D0=B8 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85;</li>
+<li>=D0=94=D1=80=D1=83=D0=B3=D0=B8=D0=B5 =D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=D0=
+=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=B8=D0=BD=D1=84=D0=
+=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =D0=B6=D0=B5=D0=BB=D0=B0=D0=
+=B5=D0=BC=D1=8B=D1=85 =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=
+=B0=D1=85 =D0=B8 =D0=BE=D1=81=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=
+=82=D1=8F=D1=85 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B =D1=81=D0=B8=D1=81=D1=
+=82=D0=B5=D0=BC=D1=8B.</li>
+</ul></li>
+<li><strong>=D0=9F=D0=B5=D1=80=D1=81=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=
+=B0=D1=8F =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F.</st=
+rong>&nbsp;=D0=9F=D0=BE=D0=BB=D0=BD=D0=BE=D0=B5 =D1=81=D0=BE=D0=BA=D1=80=D0=
+=B0=D1=89=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=
+=BD=D0=B8=D0=B5 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B =D0=B8 =D0=BA=D0=
+=BB=D0=B8=D0=B5=D0=BD=D1=82=D0=B0, =D0=BB=D0=BE=D0=B3=D0=BE=D1=82=D0=B8=D0=
+=BF=D1=8B =D0=B2=D1=81=D0=B5=D1=85 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=
+=B4=D0=B8=D0=BC=D1=8B=D1=85 =D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=82=D0=BE=D0=
+=B2, =D0=BF=D0=BE=D0=B6=D0=B5=D0=BB=D0=B0=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE =
+=D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D0=BC=D1=83 =D0=B2=D0=B8=D0=B4=D1=83 =
+=D0=B8 =D1=81=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=BD=D1=8B=D0=BC =
+=D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=B0=D0=BC =D0=BA=D0=BB=
+=D0=B8=D0=B5=D0=BD=D1=82=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D0=9F=D0=9E (=D1=81=
+=D1=82=D0=B0=D0=BD=D0=B4=D0=B0=D1=80=D1=82=D0=BD=D1=8B=D0=B5 =D0=BF=D1=83=
+=D1=82=D0=B8, =D0=BD=D0=B0=D0=B7=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=83=D1=81=
+=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D1=89=D0=B8=D0=BA=D0=B0 =D0=B8 =D1=82=D0=B5=
+=D1=80=D0=BC=D0=B8=D0=BD=D0=B0=D0=BB=D0=B0 =D0=B8 =D1=82.=D0=BF.)</li>
+</ul>
+<p>=D0=98=D0=BC=D0=B5=D1=8F =D1=8D=D1=82=D0=B8 =D0=B4=D0=B0=D0=BD=D0=BD=D1=
+=8B=D0=B5, =D0=BF=D0=B5=D1=80=D0=B5=D0=B4 =D1=82=D0=B5=D0=BC =D0=BA=D0=B0=
+=D0=BA =D0=BD=D0=B0=D1=87=D0=B0=D1=82=D1=8C, =D0=BD=D1=83=D0=B6=D0=BD=D0=BE=
+ =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D0=B8=D1=82=D1=8C=D1=81=D1=8F =
+=D1=82=D0=B0=D0=BA=D0=B6=D0=B5 =D1=81:</p>
+<ul class=3D"alternate">
+<li>=D0=9F=D0=B5=D1=80=D0=B5=D1=87=D0=BD=D0=B5=D0=BC =D0=BA=D0=BE=D0=BC=D0=
+=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=
+=B5 =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D1=8B =D0=B1=D1=8B=D1=82=D1=8C =D1=83=D1=
+=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D1=8B =D0=B4=D0=BB=D1=
+=8F =D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=
+=BC=D1=8B</li>
+<li>=D0=90=D0=B4=D1=80=D0=B5=D1=81=D0=B0=D0=BC=D0=B8 =D1=81=D0=B5=D1=80=D0=
+=B2=D0=B5=D1=80=D0=BE=D0=B2, =D0=BD=D0=B0 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=
+=8B=D1=85 =D0=BE=D0=BD=D0=B8 =D0=B1=D1=83=D0=B4=D1=83=D1=82 =D1=83=D1=81=D1=
+=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D1=8B</li>
+</ul>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 1.</strong> <span>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 O=
+racle =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=
+=8F</span> =D0=B8 =D0=B4=D0=BE=D0=BC=D0=B5=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =
+=D0=B8=D0=BC=D0=B5=D0=BD=D0=B8<br> =D0=9E=D0=B4=D0=BD=D0=BE=D0=B2=D1=80=D0=
+=B5=D0=BC=D0=B5=D0=BD=D0=BD=D0=BE =D1=81 =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=
+=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=B7=D0=B0=D0=B4=D0=B0=D0=BD=D0=B8=D1=8F =D0=
+=BD=D0=B0 =D1=83=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D1=83 =D0=BD=D0=
+=BE=D0=B2=D0=BE=D0=B9 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B =D0=BD=D1=
+=83=D0=B6=D0=BD=D0=BE =D0=B7=D0=BD=D0=B0=D1=82=D1=8C =D0=BD=D0=B0=D0=B7=D0=
+=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BF=D1=80=D0=B5=D0=B4=D0=BF=D0=BE=D1=87=D1=
+=82=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE DB =D0=B1=D0=BE=
+=D0=BA=D1=81=D0=B0.</p>=20
+</div>
+</div>
+<p><span class=3D"confluence-anchor-link" id=3D"MTICreationPlan-make"></spa=
+n></p>
+<h3 id=3D"MTICreationPlan-=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5=
+=D1=81=D1=85=D0=B5=D0=BC=D1=8B">=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=
+=D0=B5 =D1=81=D1=85=D0=B5=D0=BC=D1=8B</h3>
+<p>=D0=94=D0=BB=D1=8F =D0=BD=D0=B0=D1=87=D0=B0=D0=BB=D0=B0 =D1=83=D1=81=D1=
+=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B8 =D0=BD=D0=B0=D0=BC =D0=BF=D0=BE=D0=
+=BD=D0=B0=D0=B4=D0=BE=D0=B1=D1=8F=D1=82=D1=81=D1=8F =D0=B8=D1=81=D1=85=D0=
+=BE=D0=B4=D0=BD=D1=8B=D0=B5 =D0=BA=D0=BE=D0=B4=D1=8B =D1=81=D1=85=D0=B5=D0=
+=BC=D1=8B. =D0=97=D0=B0=D0=B3=D1=80=D1=83=D0=B7=D0=B8=D1=82=D1=8C =D0=B8=D1=
+=85 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=B8=D0=B7 GIThub, =D0=B4=D0=BB=D1=8F =
+=D1=8D=D1=82=D0=BE=D0=B3=D0=BE =D0=BD=D0=B0 =D0=BA=D0=BE=D0=BC=D0=BF=D1=8C=
+=D1=8E=D1=82=D0=B5=D1=80=D0=B5 =D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD =D0=B1=
+=D1=8B=D1=82=D1=8C =D1=83=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=
+=D0=BD GIT-=D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82 =D0=B8 =D0=B8=D0=B7=D0=B2=
+=D0=B5=D1=81=D1=82=D0=BD=D1=8B =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=
+=D1=80=D1=8B =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=B0.</p>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 2.</strong> <span>=D0=97=D0=B0=D0=B3=D1=80=D1=83=D0=B7=D0=BA=D0=B0 =
+=D0=B8=D1=81=D1=85=D0=BE=D0=B4=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2</span><br> =D0=
+=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC =D0=BC=D0=B5=D1=
+=82=D0=BA=D1=83, =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=
+=B2=D1=83=D1=8E=D1=89=D1=83=D1=8E =D1=82=D0=B5=D0=BA=D1=83=D1=89=D0=B5=D0=
+=B9 =D0=B2=D0=B5=D1=80=D1=81=D0=B8=D0=B8 =D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=
+=B3=D0=BE =D1=82=D0=B8=D0=BF=D0=B0 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC. =
+=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80 =D0=BA=D0=BE=D0=BC=D0=B0=D0=BD=D0=B4=
+=D1=8B:</p>
+<p>git clone https://ActforexApi:passw0rd4ap1@github.com/MarketTraders/ActC=
+ore.git MTI =D0=B2=D1=8B=D0=BA=D0=B0=D1=87=D0=B0=D1=82=D1=8C =D0=B1=D0=B0=
+=D0=B7=D1=83 MTI GITHub</p>=20
+</div>
+</div>
+<p>=D0=A1=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B9 =D1=8D=D1=82=D0=
+=B0=D0=BF - =D0=BD=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 Or=
+acle =D1=81=D1=85=D0=B5=D0=BC=D1=8B. =D0=94=D0=BB=D1=8F =D1=8D=D1=82=D0=BE=
+=D0=B3=D0=BE =D0=BD=D0=B0=D0=BC =D0=BD=D1=83=D0=B6=D0=B5=D0=BD =D1=83=D1=81=
+=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D0=B8 =
+=D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 Oracle =
+=D0=BA=D0=BB=D0=B8=D0=B5=D0=BD=D1=82 sqlplus. =D0=9D=D0=B5=D0=BE=D0=B1=D1=
+=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D0=B8=D0=B7 =D0=BA=D0=BE=D1=80=D0=BD=D0=
+=B5=D0=B2=D0=BE=D0=B3=D0=BE =D0=BA=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3=D0=
+=B0 =D0=B8=D1=81=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=BA=D0=BE=D0=B4=D0=
+=BE=D0=B2 =D1=81=D1=85=D0=B5=D0=BC=D1=8B (=D0=B2 =D0=BD=D0=B0=D1=88=D0=B5=
+=D0=BC =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5 MTI) =D0=B2=D1=8B=D0=BF=D0=BE=
+=D0=BB=D0=BD=D0=B8=D1=82=D1=8C =D0=BB=D0=BE=D0=B3=D0=B8=D0=BD =D0=B2=D0=BD=
+=D0=BE=D0=B2=D1=8C =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=BC =
+=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D0=B5=D0=
+=BC =D0=BD=D0=B0 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=
+=B2=D1=83=D1=8E=D1=89=D0=B8=D0=B9 =D0=B1=D0=BE=D0=BA=D1=81 =D0=B8 =D0=B7=D0=
+=B0=D0=BF=D1=83=D1=81=D1=82=D0=B8=D1=82=D1=8C =D1=81=D0=BA=D1=80=D0=B8=D0=
+=BF=D1=82 make.sql.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">=D0=91=D0=B0=D0=B7=D0=BE=D0=B2=D0=B0=D1=8F =D0=B2=D0=B0=
+=D0=BB=D1=8E=D1=82=D0=B0, =D0=A2=D0=B8=D0=BF =D1=81=D0=B8=D1=81=D1=82=D0=B5=
+=D0=BC=D1=8B</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>=D0=95=D1=81=D0=BB=D0=B8 =D0=B1=D0=B0=D0=B7=D0=BE=D0=B2=D0=B0=D1=8F =D0=
+=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=B0 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=
+=8B =D0=BE=D1=82=D0=BB=D0=B8=D1=87=D0=BD=D0=B0 =D0=BE=D1=82 USD =D0=B8 =D0=
+=BD=D0=B5=D1=82 =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=B8=D0=B9 =D0=BF=D0=
+=BE =D0=BA=D0=BE=D0=BF=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8E =D0=
+=B8=D0=BD=D1=81=D1=82=D1=80=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2 =D1=
+=81 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B9 =D1=81=D1=85=D0=B5=D0=BC=D1=8B, =
+=D0=BF=D0=B5=D1=80=D0=B5=D0=B4 =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=
+=D0=BD=D0=B8=D0=B5=D0=BC =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B5=
+=D0=B3=D0=BE =D1=88=D0=B0=D0=B3=D0=B0 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=BF=
+=D0=BE=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D1=83=D1=81=D1=82=D0=B0=
+=D0=BD=D0=BE=D0=B2=D0=BA=D1=83 base_crncy =D1=80=D1=83=D0=BB=D1=8F =D0=B2 =
+=D0=B8=D1=81=D1=85=D0=BE=D0=B4=D0=BD=D0=B8=D0=BA=D0=B0=D1=85 =D1=81=D1=85=
+=D0=B5=D0=BC=D1=8B (/_set/rule_data.sql).</p>
+<p>=D0=A2=D0=B8=D0=BF =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D1=8B ('DEMO', '=
+REAL') =D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D0=BC =D1=82=D0=B0=D0=BC =D0=B6=D0=B5=
+ (/_set/rule_data.sql).</p>
+</div>
+</div>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 3.</strong> <span>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 =
+=D1=81=D1=85=D0=B5=D0=BC=D1=8B</span><br> =D0=98=D0=B7 =D0=BA=D0=B0=D1=82=
+=D0=B0=D0=BB=D0=BE=D0=B3=D0=B0 =D1=81 =D0=B7=D0=B0=D0=B3=D1=80=D1=83=D0=B6=
+=D0=B5=D0=BD=D0=BD=D1=8B=D0=BC=D0=B8 =D0=B8=D1=81=D1=85=D0=BE=D0=B4=D0=BD=
+=D0=B8=D0=BA=D0=B0=D0=BC=D0=B8 =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=
+=D1=82=D1=8C:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: plain; gutter: false; theme: Confluence" data-theme=3D"Confluence"># sqlp=
+lus MTID1/XXXXXXX@MTI
+SQL&gt; @make;
+
+SQL&gt; @u/revalid;</pre>=20
+</div>
+</div>=20
+</div>
+</div>
+<p>=D0=92 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B5 =D0=B2=D1=8B=D0=
+=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F @make =D0=B1=D1=83=D0=B4=D0=
+=B5=D1=82 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=BE =D0=B2=D1=81=D1=91 =D0=
+=B1=D0=B0=D0=B7=D0=BE=D0=B2=D0=BE=D0=B5 =D0=BD=D0=B0=D0=BF=D0=BE=D0=BB=D0=
+=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D1=81=D1=85=D0=B5=D0=BC=D1=8B: packages, jobs,=
+ tables etc.</p>
+<pre>@u/revalid; =D0=BE=D1=82=D1=80=D0=B5=D0=BC=D0=BE=D0=BD=D1=82=D0=B8=D1=
+=80=D1=83=D0=B5=D1=82 =D0=BD=D0=B0 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC=D0=
+=B5 =D0=BF=D0=BE=D0=BB=D0=BE=D0=BC=D0=B0=D0=BD=D1=8B=D0=B5 <span>packages, =
+jobs, tables etc.</span></pre>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 4.</strong> <span>=D0=9F=D1=80=D0=B5=D0=B4=D0=B2=D0=B0=D1=80=D0=B8=
+=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=BD=D0=B0=D1=81=D1=82=D1=80=
+=D0=BE=D0=B9=D0=BA=D0=B0</span></p>
+<ul class=3D"alternate">
+<li>=D0=92=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C =D0=BF=D0=B5=D1=
+=80=D0=B5=D0=BD=D0=BE=D1=81 =D0=B2=D0=BD=D0=BE=D0=B2=D1=8C =D1=81=D0=BE=D0=
+=B7=D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=
+=BC=D0=BD=D1=8B=D1=85 =D0=B8 =D1=82=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D1=8B=D0=
+=B9 =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D0=
+=B5=D0=B9 =D1=81 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B9 =D1=81=D1=85=D0=B5=D0=
+=BC=D1=8B =D1=82=D0=B0=D0=BA=D0=BE=D0=B3=D0=BE =D0=B6=D0=B5 =D1=82=D0=B8=D0=
+=BF=D0=B0, =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D1=8F DB-Link</=
+li>
+</ul>=20
+</div>
+</div>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 5.</strong> <u>BackOffice</u></p>
+<ul class=3D"alternate">
+<li>=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=8C =D0=B8 =D0=B4=D0=
+=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C, =D0=B5=D1=81=D0=BB=D0=B8 =D1=8D=D1=
+=82=D0=BE =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE, =D0=
+=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=B1=D0=B0=D0=B7=D0=BE=D0=
+=B2=D1=8B=D1=85 =D1=80=D1=83=D0=BB=D0=B5=D0=B9 =D0=B2 System Settings, =D0=
+=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80:
+<ul>
+<li><em>base_admin_url</em></li>
+<li><em>base_report_url</em></li>
+</ul></li>
+<li>=D0=A0=D1=83=D0=BB=D1=8C <strong>two_modes_of_bo_window </strong>=D0=B2=
+=D1=8B=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D0=BC =D0=B2 =D0=B7=D0=B0=
+=D0=B2=D0=B8=D1=81=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=BE=D1=82 =D0=BD=
+=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B5=D0=BA BO -
+<ul>
+<li>YES - for systems w/ enabled BO,</li>
+<li>NO - for systems w/ disabled BO.</li>
+</ul></li>
+</ul>=20
+</div>
+</div>
+<p><span class=3D"confluence-anchor-link" id=3D"MTICreationPlan-setup"></sp=
+an></p>
+<h3 id=3D"MTICreationPlan-=D0=9D=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=
+=D0=B8=D0=B5=D0=B8=D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=B5=D0=
+=BB=D1=8C=D0=BD=D0=B0=D1=8F=D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=
+=D0=B0">=D0=9D=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B8=
+ =D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B0=D1=8F =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=B0</h3>
+<div class=3D"panel" style=3D"border-width: 1px;">
+<div class=3D"panelContent">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <u>=D0=
+=9A=D0=BE=D0=BF=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BD=D0=
+=B0=D1=81=D1=82=D1=80=D0=BE=D0=B5=D0=BA =D1=81 =D0=B4=D1=80=D1=83=D0=B3=D0=
+=BE=D0=B9 =D1=81=D1=85=D0=B5=D0=BC=D1=8B</u></p>
+<p>=D0=9F=D0=BE=D1=81=D0=BB=D0=B5 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=
+=B8=D1=8F =D0=BD=D0=BE=D0=B2=D0=BE=D0=B9 =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=
+=BC=D1=8B =D0=BD=D0=B5=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=BE=D0=
+=B1=D1=89=D0=B8=D0=B5 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D0=B5 =D0=B8=D0=BC=D0=
+=B5=D0=B5=D1=82 =D1=81=D0=BC=D1=8B=D1=81=D0=BB =D1=81=D0=BA=D0=BE=D0=BF=D0=
+=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D1=81 =D1=83=D0=B6=D0=B5 =D1=80=D0=
+=B0=D0=B1=D0=BE=D1=82=D0=B0=D1=8E=D1=89=D0=B8=D1=85 =D1=81=D0=B8=D1=81=D1=
+=82=D0=B5=D0=BC. =D0=9E=D0=B1=D1=8B=D1=87=D0=BD=D0=BE =D1=83=D0=BA=D0=B0=D0=
+=B7=D1=8B=D0=B2=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D1=81=D0=B8=D1=81=D1=82=D0=
+=B5=D0=BC=D1=83-=D0=B8=D1=81=D1=82=D0=BE=D1=87=D0=BD=D0=B8=D0=BA, =D1=81 =
+=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D0=BE=D0=B9 =D1=8D=D1=82=D0=B8 =D0=B4=D0=B0=
+=D0=BD=D0=BD=D1=8B=D0=B5 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=B1=D1=80=D0=B0=
+=D1=82=D1=8C, =D0=B8 =D0=BF=D0=B5=D1=80=D0=B5=D1=87=D0=B5=D0=BD=D1=8C =D1=
+=81=D0=B0=D0=BC=D0=B8=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85, =D0=BA=D0=
+=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D1=8B =D0=
+=B1=D1=8B=D1=82=D1=8C =D1=81=D0=BA=D0=BE=D0=BF=D0=B8=D1=80=D0=BE=D0=B2=D0=
+=B0=D0=BD=D1=8B, =D0=B2 =D0=BF=D1=80=D0=BE=D1=82=D0=B8=D0=B2=D0=BD=D0=BE=D0=
+=BC =D1=81=D0=BB=D1=83=D1=87=D0=B0=D0=B5, =D1=8D=D1=82=D0=BE =D0=BD=D1=83=
+=D0=B6=D0=BD=D0=BE =D1=81=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BE=D0=B2=D0=B0=
+=D1=82=D1=8C =D1=81 =D1=80=D1=83=D0=BA=D0=BE=D0=B2=D0=BE=D0=B4=D1=81=D1=82=
+=D0=B2=D0=BE=D0=BC.</p>
+<ul>
+<li><p>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=B8=D0=B5 DB link =D0=B4=D0=
+=BB=D1=8F =D0=BD=D0=B0 =D1=81=D1=85=D0=B5=D0=BC=D1=83-=D0=B8=D1=81=D1=82=D0=
+=BE=D1=87=D0=BD=D0=B8=D0=BA, =D0=BD=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=
+=80, deal1 (=D0=B7=D0=B4=D0=B5=D1=81=D1=8C =D0=B8 =D0=B4=D0=B0=D0=BB=D0=B5=
+=D0=B5 =D0=BF=D0=BE=D0=B4=D1=80=D0=B0=D0=B7=D1=83=D0=BC=D0=B5=D0=B2=D0=B0=
+=D0=B5=D1=82=D1=81=D1=8F =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D0=BA=D1=80=D0=B8=D0=BF=D1=82=D0=BE=
+=D0=B2):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: plain; gutter: false; theme: Confluence" data-theme=3D"Confluence">CREATE=
+ DATABASE LINK lnk_deal_1=20
+CONNECT TO deal1 IDENTIFIED BY XXXXXXX USING '(DESCRIPTION =3D (ADDRESS =3D=
+ (PROTOCOL =3D TCP)(HOST =3D 10.10.10.10)(PORT =3D 1521)) (CONNECT_DATA =3D=
+ (SERVICE_NAME =3D MTI)))';</pre>=20
+</div>
+</div></li>
+<li><p>=D0=9A=D0=BE=D0=BF=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =
+=D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B5=D0=BA =D1=81=D0=B8=D1=81=D1=82=
+=D0=B5=D0=BC=D0=BD=D1=8B=D1=85 =D0=B8=D0=BD=D0=B4=D0=B8=D0=BA=D0=B0=D1=82=
+=D0=BE=D1=80=D0=BE=D0=B2 =D0=B8 =D1=81=D1=82=D1=80=D0=B0=D1=82=D0=B5=D0=B3=
+=D0=B8=D0=B9:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: plain; gutter: false; theme: Confluence" data-theme=3D"Confluence">SQL&gt=
+; @offices/copy_scripts_list lnk_deal_1</pre>=20
+</div>
+</div></li>
+<li><p>=D0=9A=D0=BE=D0=BF=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =
+=D0=B8=D1=81=D1=82=D0=BE=D1=80=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =
+=D1=87=D0=B0=D1=80=D1=82=D0=BE=D0=B2=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=
+=D1=8B=D1=85:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: plain; gutter: false; theme: Confluence" data-theme=3D"Confluence">SQL&gt=
+; @charts/chart_transf_MTI</pre>=20
+</div>
+</div></li>
+</ul>=20
+</div>
+</div>
+<h3 id=3D"MTICreationPlan-=D0=A3=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=
+=D0=B0=D0=B8=D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=B0=D0=BA=D0=
+=BE=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82">=D0=A3=D1=81=D1=82=D0=B0=D0=
+=BD=D0=BE=D0=B2=D0=BA=D0=B0 =D0=B8 =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=
+=B9=D0=BA=D0=B0 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82</h3>
+<p>=D0=9A =D0=B1=D0=B0=D0=B7=D0=BE=D0=B2=D1=8B=D0=BC =D0=BA=D0=BE=D0=BC=D0=
+=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82=D0=B0=D0=BC =D0=BE=D1=82=D0=BD=D0=BE=D1=
+=81=D1=8F=D1=82=D1=81=D1=8F:</p>
+<ul class=3D"alternate">
+<li>Web Server (aka Middle, http_orcl)</li>
+<li>MDD</li>
+<li>Performer</li>
+<li>Chart Server</li>
+<li>Java Report</li>
+<li>Java Admin</li>
+<li>Act_lite</li>
+</ul>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 6.</strong> <span>=D0=A0=D0=B0=D1=81=D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=
+=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=
+=D1=82</span><br> =D0=9F=D0=B5=D1=80=D0=B5=D0=B4 =D0=BD=D0=B0=D1=87=D0=B0=
+=D0=BB=D0=BE=D0=BC =D1=83=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B8 =
+=D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D0=B8=D1=82=D1=8C=D1=81=D1=8F =
+=D1=81 =D1=80=D0=B0=D1=81=D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=
+=D0=B5=D0=BC =D0=BA=D0=BE=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82. =D0=92=
+=D1=8B=D0=B1=D1=80=D0=B0=D1=82=D1=8C =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=
+=D0=B0 =D0=B4=D0=BB=D1=8F =D1=83=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=
+=D0=B8 =D0=B8 =D0=BF=D0=BE=D1=80=D1=82=D1=8B =D0=B7=D0=B0=D0=BD=D0=B8=D0=BC=
+=D0=B0=D0=B5=D0=BC=D1=8B=D0=B5 =D0=B8=D0=BC=D0=B8. =D0=9F=D0=BE=D1=80=D1=82=
+ =D0=B4=D0=BB=D1=8F =D0=BA=D0=B0=D0=B6=D0=B4=D0=BE=D0=B3=D0=BE =D0=BA=D0=BE=
+=D0=BC=D0=BF=D0=BE=D0=BD=D0=B5=D0=BD=D1=82=D0=B0 =D0=BE=D0=BF=D1=80=D0=B5=
+=D0=B4=D0=B5=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=B0=D0=B4=D0=BC=D0=B8=
+=D0=BD=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=82=D0=BE=D1=80=D0=BE=D0=BC =D1=81=
+=D0=BE=D0=B3=D0=BB=D0=B0=D1=81=D0=BD=D0=BE =D0=BF=D1=80=D0=B0=D0=B2=D0=B8=
+=D0=BB =D0=B4=D0=BB=D1=8F =D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=81=
+=D0=B5=D1=80=D0=B2=D0=B8=D1=81=D0=B0.</p>=20
+</div>
+</div>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 7.</strong> <span>Web Server</span><br> =D0=9E=D1=82=D0=B4=D0=B5=D0=
+=BB=D1=8C=D0=BD=D0=BE =D0=B4=D0=BB=D1=8F =D1=82=D0=BE=D1=80=D0=B3=D0=BE=D0=
+=B2=D0=BE=D0=B3=D0=BE =D0=B8 =D1=80=D0=B5=D0=BF=D0=BE=D1=80=D1=82=D0=BE=D0=
+=B2=D0=BE=D0=B3=D0=BE =D0=BC=D0=B8=D0=B4=D0=BB=D0=B0:</p>
+<ul class=3D"alternate">
+<li>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D0=B4=D0=B5=D1=80=D0=B5=D0=
+=B2=D0=BE =D0=BA=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3=D0=BE=D0=B2 (=D0=BE=D1=
+=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=8F =D1=81=D1=82=D0=B0=D1=82=D1=8C=D1=
+=8F: <a href=3D"/pages/viewpage.action?pageId=3D6881313">MTI http_orcl_run =
+- =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D0=BA=D1=80=D0=B8=
+=D0=BF=D1=82=D0=B0 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=B0 =D0=B8 =D1=81=
+=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D1=8B =D0=BA=D0=B0=D1=82=D0=B0=
+=D0=BB=D0=BE=D0=B3=D0=BE=D0=B2 =D0=B2 Linux</a>)</li>
+<li>=D0=A1=D0=BA=D0=BE=D0=BF=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=
+=B8=D0=BC=D0=B5=D1=8E=D1=89=D0=B8=D0=B9=D1=81=D1=8F =D0=B8 =D0=BE=D1=82=D1=
+=80=D0=B5=D0=B4=D0=B0=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=
+ =D0=B2 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=B8=
+=D0=B8 =D1=81 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F=
+=D0=BC=D0=B8 =D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D1=81=D0=B8=D1=81=D1=82=
+=D0=B5=D0=BC=D1=8B =D0=BA=D0=BE=D0=BD=D1=84=D0=B8=D0=B3=D1=83=D1=80=D0=B0=
+=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=B9 xml-=D1=84=D0=B0=D0=B9=D0=BB</li=
+>
+<li>=D0=97=D0=B0=D0=BF=D1=83=D1=81=D1=82=D0=B8=D1=82=D1=8C =D0=B8 =D0=BF=D1=
+=80=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=8C =D1=81=D0=BE=D1=81=D1=82=D0=
+=BE=D1=8F=D0=BD=D0=B8=D0=B5</li>
+<li>=D0=9F=D0=BE=D1=81=D0=BB=D0=B5 =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=
+=B9=D0=BA=D0=B8 =D0=BC=D0=B8=D0=B4=D0=BB=D0=BE=D0=B2 =D0=BD=D0=B0 =D1=81=D0=
+=B8=D1=81=D1=82=D0=B5=D0=BC=D0=B5 =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D1=83=D0=
+=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C =D0=B2=D0=B5=D1=80=D0=BD=D1=8B=D0=B5 =D0=
+=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0 =D0=BA =D0=BD=D0=B8=D0=BC, =D0=B7=D0=B0=
+=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D0=B2 =D1=80=D1=83=D0=BB=D0=B8 <em>middle_ad=
+dress</em> (=D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D0=B8=
+=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE =
+=D0=BF=D1=80=D1=8F=D0=BC=D1=8B=D0=BC =D0=BB=D0=BE=D0=B3=D0=B8=D0=BD=D0=BE=
+=D0=BC =D0=B2 =D0=B1=D0=B0=D0=B7=D1=83) =D0=B8 <em>Base Admin URL</em>.</li=
+>
+</ul>=20
+</div>
+</div>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 8.</strong> MDD</p>
+<ul class=3D"alternate">
+<li>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D0=B4=D0=B5=D1=80=D0=B5=D0=
+=B2=D0=BE =D0=BA=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3=D0=BE=D0=B2 (=D0=BE=D1=
+=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=8F =D1=81=D1=82=D0=B0=D1=82=D1=8C=D1=
+=8F: <a class=3D"createlink" href=3D"/pages/createpage.action?spaceKey=3DCS=
+&amp;title=3Dfeed+distributor+-+%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%=
+D1%80%D0%B0+%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%B0+%D0%B8+%D1%81%=
+D0%BA%D1%80%D0%B8%D0%BF%D1%82+%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0&am=
+p;linkCreation=3Dtrue&amp;fromPageId=3D6881301">feed distributor - =D1=81=
+=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D0=B0 =D0=BA=D0=B0=D1=82=D0=B0=
+=D0=BB=D0=BE=D0=B3=D0=B0 =D0=B8 =D1=81=D0=BA=D1=80=D0=B8=D0=BF=D1=82 =D0=B7=
+=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=B0</a>)</li>
+<li>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C =D0=B2=D1=81=D0=
+=B5 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D1=8B=D0=B5 =D1=
+=84=D0=B0=D0=B9=D0=BB=D1=8B =D0=BA=D0=BE=D0=BD=D1=84=D0=B8=D0=B3=D1=83=D1=
+=80=D0=B0=D1=86=D0=B8=D0=B8 (=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=
+=8F =D1=81=D1=82=D0=B0=D1=82=D1=8C=D1=8F: <a class=3D"createlink" href=3D"/=
+pages/createpage.action?spaceKey=3DCS&amp;title=3Dfeed+distributor+-+%D0%B4=
+%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F+%D0%BF%D=
+0%BE+%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5&amp;linkCreatio=
+n=3Dtrue&amp;fromPageId=3D6881301">feed distributor - =D0=B4=D0=BE=D0=BA=D1=
+=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=B8=D1=8F =D0=BF=D0=BE =D0=BD=D0=
+=B0=D1=81=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=B5</a>)</li>
+<li>=D0=97=D0=B0=D0=BF=D1=83=D1=81=D1=82=D0=B8=D1=82=D1=8C =D0=B8 =D0=BF=D1=
+=80=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=8C =D1=81=D0=BE=D1=81=D1=82=D0=
+=BE=D1=8F=D0=BD=D0=B8=D0=B5</li>
+<li>=D0=9F=D0=BE=D1=81=D0=BB=D0=B5 =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=
+=B9=D0=BA=D0=B8 Price Distributor =D0=BD=D1=83=D0=B6=D0=BD=D0=BE =D0=B2=D0=
+=BD=D0=B5=D1=81=D1=82=D0=B8 =D0=B5=D0=B3=D0=BE =D0=B0=D0=B4=D1=80=D0=B5=D1=
+=81 =D0=B2 =D1=80=D1=83=D0=BB=D1=8F=D1=85 <em>Internal link for price distr=
+ibuter</em> (=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D1=8F =D0=B2=
+=D0=BD=D1=83=D1=82=D1=80=D0=B5=D0=BD=D0=BD=D1=8E=D1=8E =D0=BF=D0=BE=D0=B4=
+=D1=81=D0=B5=D1=82=D1=8C) =D0=B8 <em>Link for price distributer for entire =
+schema</em> (=D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D1=8F =D0=B2=
+=D0=BD=D0=B5=D1=88=D0=BD=D0=B8=D0=B9 =D0=B0=D0=B4=D1=80=D0=B5=D1=81 =D1=81=
+=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=B0)</li>
+</ul>=20
+</div>
+</div>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 9.</strong> <span>Performer</span></p>
+<ul class=3D"alternate">
+<li>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D0=B4=D0=B5=D1=80=D0=B5=D0=
+=B2=D0=BE =D0=BA=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3=D0=BE=D0=B2 (=D0=BE=D1=
+=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=8F =D1=81=D1=82=D0=B0=D1=82=D1=8C=D1=
+=8F: <a class=3D"createlink" href=3D"/pages/createpage.action?spaceKey=3DCS=
+&amp;title=3Dperformer+-+%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5+%=
+D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B+%D0%BA%D0%B0%D1%82%D0=
+%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2&amp;linkCreation=3Dtrue&amp;fromPageId=3D=
+6881301">performer - =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D1=
+=81=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D1=8B =D0=BA=D0=B0=D1=82=D0=
+=B0=D0=BB=D0=BE=D0=B3=D0=BE=D0=B2</a>)</li>
+<li>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C =D1=84=D0=B0=D0=
+=B9=D0=BB =D0=BA=D0=BE=D0=BD=D1=84=D0=B8=D0=B3=D1=83=D1=80=D0=B0=D1=86=D0=
+=B8=D0=B8 =D0=B2 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=
+=B2=D0=B8=D0=B8 =D1=81 =D1=82=D0=BE=D0=B9 =D0=B6=D0=B5 =D1=81=D1=82=D0=B0=
+=D1=82=D1=8C=D0=B5=D0=B9</li>
+<li>=D0=97=D0=B0=D0=BF=D1=83=D1=81=D1=82=D0=B8=D1=82=D1=8C =D0=B8 =D0=BF=D1=
+=80=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=8C =D1=81=D0=BE=D1=81=D1=82=D0=
+=BE=D1=8F=D0=BD=D0=B8=D0=B5</li>
+</ul>=20
+</div>
+</div>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 10.</strong> <span>Chart Server</span></p>
+<ul class=3D"alternate">
+<li>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D0=B4=D0=B5=D1=80=D0=B5=D0=
+=B2=D0=BE =D0=BA=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3=D0=BE=D0=B2 (=D0=BE=D1=
+=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=8F =D1=81=D1=82=D0=B0=D1=82=D1=8C=D1=
+=8F: <a href=3D"/pages/viewpage.action?pageId=3D6881309">chart servers - =
+=D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D1=82=D1=80=D1=83=
+=D0=BA=D1=82=D1=83=D1=80=D1=8B =D0=BA=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3=
+=D0=BE=D0=B2</a>)</li>
+<li>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C =D0=B2=D1=81=D0=
+=B5 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D1=8B=D0=B5 =D1=
+=84=D0=B0=D0=B9=D0=BB=D1=8B =D0=BA=D0=BE=D0=BD=D1=84=D0=B8=D0=B3=D1=83=D1=
+=80=D0=B0=D1=86=D0=B8=D0=B8 (=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=
+=8F =D1=81=D1=82=D0=B0=D1=82=D1=8C=D1=8F: <a class=3D"createlink" href=3D"/=
+pages/createpage.action?spaceKey=3DCS&amp;title=3Dchsrv_run+-+%D1%81%D0%BA%=
+D1%80%D0%B8%D0%BF%D1%82+%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0&amp;link=
+Creation=3Dtrue&amp;fromPageId=3D6881301">chsrv_run - =D1=81=D0=BA=D1=80=D0=
+=B8=D0=BF=D1=82 =D0=B7=D0=B0=D0=BF=D1=83=D1=81=D0=BA=D0=B0</a>; =D0=BF=D0=
+=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=B0=D1=8F =D0=B8=D0=BD=D1=84=D0=BE=D1=
+=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BF=D0=BE =D0=BD=D0=B0=D1=81=D1=82=D1=
+=80=D0=BE=D0=B9=D0=BA=D0=B5 =D0=B8 =D0=BF=D1=80=D0=BE=D1=82=D0=BE=D0=BA=D0=
+=BE=D0=BB=D1=83 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B =D1=87=D0=B0=D1=80=D1=
+=82-=D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=B0: <a href=3D"/display/ACT2/Ch=
+art+Server">Chart Server</a>)</li>
+<li>=D0=97=D0=B0=D0=BF=D1=83=D1=81=D1=82=D0=B8=D1=82=D1=8C =D0=B8 =D0=BF=D1=
+=80=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=8C =D1=81=D0=BE=D1=81=D1=82=D0=
+=BE=D1=8F=D0=BD=D0=B8=D0=B5</li>
+<li>=D0=9F=D0=BE=D1=81=D0=BB=D0=B5 =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=
+=B9=D0=BA=D0=B8 =D1=87=D0=B0=D1=80=D1=82-=D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=
+=80=D0=B0 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D1=
+=83=D0=BA=D0=B0=D0=B7=D0=B0=D1=82=D1=8C =D0=B5=D0=B3=D0=BE =D0=B0=D0=B4=D1=
+=80=D0=B5=D1=81 =D0=B2 =D1=80=D1=83=D0=BB=D0=B5 <em>WinClient: Chart Server=
+</em></li>
+</ul>=20
+</div>
+</div>
+<div class=3D"panel" style=3D"background-color: white;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: white;">=20
+<p><img class=3D"emoticon emoticon-light-on" title=3D"(lightbulb)" border=
+=3D"0" src=3D"b3abe97615fbc9f06d8c652e42575f16" alt=3D"(lightbulb)"> <stron=
+g>Step 11.</strong> <span>Java Reports</span></p>
+<ul class=3D"alternate">
+<li>=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D0=BA=D0=BE=D0=BD=D1=84=D0=
+=B8=D0=B3=D1=83=D1=80=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=B5 =D1=
+=84=D0=B0=D0=B9=D0=BB=D1=8B =D0=B8 =D0=BF=D1=80=D0=BE=D0=B4=D0=B5=D0=BF=D0=
+=BB=D0=BE=D0=B8=D1=82=D1=8C =D1=80=D0=B5=D0=BF=D0=BE=D1=80=D1=82=D1=8B =D0=
+=BF=D1=80=D0=B8 =D0=BF=D0=BE=D0=BC=D0=BE=D1=89=D0=B8 =D1=81=D0=BA=D1=80=D0=
+=B8=D0=BF=D1=82=D0=BE=D0=B2 (=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=B0=D1=
+=8F =D1=81=D1=82=D0=B0=D1=82=D1=8C=D1=8F: <a class=3D"createlink" href=3D"/=
+pages/createpage.action?spaceKey=3DCS&amp;title=3DJava-reports.+%D0%A1%D0%B=
+A%D1%80%D0%B8%D0%BF%D1%82%D1%8B+%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%=
+D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8+%D1%80%D1%83%D1%82%D0%B8%D0%BD%D0%BD%D1=
+%8B%D1%85+%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80&amp;linkCreation=
+=3Dtrue&amp;fromPageId=3D6881301">Java-reports. =D0=A1=D0=BA=D1=80=D0=B8=D0=
+=BF=D1=82=D1=8B =D0=B0=D0=B2=D1=82=D0=BE=D0=BC=D0=B0=D1=82=D0=B8=D0=B7=D0=
+=B0=D1=86=D0=B8=D0=B8 =D1=80=D1=83=D1=82=D0=B8=D0=BD=D0=BD=D1=8B=D1=85 =D0=
+=BF=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80</a>)</li>
+<li>=D0=97=D0=B0=D0=BF=D1=83=D1=81=D1=82=D0=B8=D1=82=D1=8C =D0=B8 =D0=BF=D1=
+=80=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D1=82=D1=8C =D1=81=D0=BE=D1=81=D1=82=D0=
+=BE=D1=8F=D0=BD=D0=B8=D0=B5</li>
+<li>=D0=9F=D0=BE=D1=81=D0=BB=D0=B5 =D0=BD=D0=B0=D1=81=D1=82=D1=80=D0=BE=D0=
+=B9=D0=BA=D0=B8 =D1=80=D0=B5=D0=BF=D0=BE=D1=80=D1=82=D0=BE=D0=B2 =D0=BD=D0=
+=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D1=83=D0=BA=D0=B0=D0=
+=B7=D0=B0=D1=82=D1=8C =D0=B8=D1=85 =D0=B0=D0=B4=D1=80=D0=B5=D1=81 =D0=B2 =
+=D1=80=D1=83=D0=BB=D0=B5 <em>Base Report URL</em></li>
+</ul>=20
+</div>
+</div>
+<p>&nbsp;</p>
+<p><span class=3D"confluence-anchor-link" id=3D"MTICreationPlan-customizati=
+on"></span></p>
+<h3 id=3D"MTICreationPlan-=D0=9F=D0=B5=D1=80=D1=81=D0=BE=D0=BD=D0=B0=D0=BB=
+=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D1=8F">=D0=9F=D0=B5=D1=80=D1=81=D0=BE=D0=BD=
+=D0=B0=D0=BB=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D1=8F</h3>
+    </div>
+</body>
+</html>
+------=_Part_66_938851863.1533794528762
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/b3abe97615fbc9f06d8c652e42575f16
+
+<svg width=3D"16" height=3D"16" xmlns=3D"http://www.w3.org/2000/svg" xmlns:=
+xlink=3D"http://www.w3.org/1999/xlink"><defs><path id=3D"a" d=3D"M0 16h16V0=
+H0z"/></defs><g transform=3D"matrix(1 0 0 -1 0 16)" fill=3D"none" fill-rule=
+=3D"evenodd"><mask id=3D"b" fill=3D"#fff"><use xlink:href=3D"#a"/></mask><g=
+ mask=3D"url(#b)"><path d=3D"M12.889 11.084c0-2.861-2.222-3.306-2.222-5.973=
+ 0-1.377-1.388-1.493-2.445-1.493-.912 0-2.927.346-2.927 1.494 0 2.666-2.184=
+ 3.11-2.184 5.972 0 2.68 2.349 4.854 4.926 4.854 2.578 0 4.852-2.173 4.852-=
+4.854" fill=3D"#FFD983" fill-rule=3D"nonzero"/><path d=3D"M9.852 1.556C9.85=
+2 1.188 8.859.444 8 .444c-.86 0-1.852.744-1.852 1.112 0 .368.993.222 1.852.=
+222.86 0 1.852.146 1.852-.222" fill=3D"#CCD6DD" fill-rule=3D"nonzero"/><pat=
+h d=3D"M10.092 11.425a.444.444 0 0 1-.628 0L8 9.962l-1.464 1.463a.444.444 0=
+ 1 1-.628-.628l1.648-1.648V4.444a.444.444 0 1 1 .888 0V9.15l1.648 1.648a.44=
+4.444 0 0 1 0 .628" fill=3D"#FFCC4D" fill-rule=3D"nonzero"/><path d=3D"M10.=
+667 2.222a.889.889 0 0 0-.89-.889H6.223a.889.889 0 0 0-.889.89v2.666h5.334V=
+2.222z" fill=3D"#99AAB5" fill-rule=3D"nonzero"/><path d=3D"M5.333 1.778a.44=
+4.444 0 0 0-.073.882l5.334.89a.444.444 0 1 0 .146-.876l-5.333-.89a.42.42 0 =
+0 0-.074-.006M5.333 3.556a.444.444 0 0 0-.073.882l5.334.89a.444.444 0 1 0 .=
+146-.876l-5.333-.89a.42.42 0 0 0-.074-.006" fill=3D"#CCD6DD" fill-rule=3D"n=
+onzero"/></g></g></svg>
+------=_Part_66_938851863.1533794528762--
